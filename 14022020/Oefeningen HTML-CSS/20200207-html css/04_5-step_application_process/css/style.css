@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    /* m + tab*/
+    padding: 0;
+    /*cp + tab*/
+    box-sizing: border-box;
+    /*bxz + tab*/
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    /* border: 2px solid red; */
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    /* filter: grayscale(100%); */
+    /* opacity: 0.4; > enkel background? */
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.white-bg {
+    background-color: rgba(225, 225, 225, 0.7);
+    /* transparant vlak 0.7 = 70% */
+    padding: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 65px;
+    padding: 2rem;
+    font-family: "Abril Fatface";
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Abril Fatface";
+}
+
+h3 {
+    color: #886c06;
+    padding: 30px 100px;
+    font-size: 19px;
+}
+
+footer {
+    padding-bottom: 1rem;
+}

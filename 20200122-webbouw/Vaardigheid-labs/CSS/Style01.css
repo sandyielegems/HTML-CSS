@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+}
+
+#div1 {
+    background-color: rosybrown;
+    height: 100px;
+    width: 800px;
+    font-size: 30px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+#div2 {
+    background-color: palevioletred;
+    height: 500px;
+    width: 800px;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /*centreren blok*/
+    font-family: fantasy;
+}
+
+#div3 {
+    background-color: purple;
+    font-size: 70px;
+    /*kleur tekst*/
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#div4 {
+    background-color: plum;
+    color: purple;
+    text-align: left;
+    width: 300px;
+    height: 100px;
+    margin-left: 30px;
+    padding: 30px;
+}

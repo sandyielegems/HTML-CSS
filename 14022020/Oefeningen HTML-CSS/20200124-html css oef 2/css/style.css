@@ -1,0 +1,9 @@
+h1 {
+    color: lime;
+    font-family: fantasy;
+}
+
+h1 span {
+    color: aqua;
+}
+

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border: 1px solid red;
+    color: gray;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    text-align: right;
+    color: white;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.fifty {}
+
+main {
+    flex: 1 1 70%;
+}
+
+aside {
+    flex: 1 1 30%;
+}
+
+.flex>.left,
+.flex>.right {
+    flex: 1 1 50%;
+}

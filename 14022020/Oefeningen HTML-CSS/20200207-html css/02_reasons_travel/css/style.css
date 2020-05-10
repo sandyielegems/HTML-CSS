@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    /* m + tab*/
+    padding: 0;
+    /*cp + tab*/
+    box-sizing: border-box;
+    /*bxz + tab*/
+}
+
+.container {
+    border: 2px solid red;
+    width: 90vw;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container>* {
+    padding: 3rem 2rem;
+}
+
+.container>*:nth-child(odd) {
+    background-color: #fbc43e;
+    color: #ffffff;
+}
+
+.container>*:nth-child(even) {
+    background-color: #ffffff;
+    color: #fbc43e;
+}
+
+.border {
+    padding-bottom: 20rem;
+    background-image: url(../img/border.png);
+    background-color: #fbc43e;
+    color: #ffffff;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    /* bgi + tab */
+}
+
+.dots {
+    padding-right: 230px;
+    background-image: url(../img/dot2.png);
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-size: 208px 43px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-right.dots {
+    padding-left: 230px;
+    padding-right: 2rem;
+    background-position: left top;
+}

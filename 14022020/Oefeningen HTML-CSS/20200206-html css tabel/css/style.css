@@ -1,0 +1,22 @@
+    * {
+        border: 1px solid black;
+    }
+    
+    span {
+        background-color: pink;
+        font-size: 30px;
+    }
+    
+    span {
+        background-color: fuchsia;
+    }
+    
+    p {
+        background-color: yellowgreen;
+        font-size: 20px;
+    }
+    
+    a {
+        color: blue;
+    }
+    

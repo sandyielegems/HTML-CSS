@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background-color: #cf90a4;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  font-family: "Arvo", serif;
+  margin: 1rem 0;
+}
+
+.subtitle {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #c35174;
+}
+
+.subtitle h3,
+.subtitle h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
+.fab,
+.fas {
+  font-size: 8rem;
+}
+
+.break {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #c35174;
+}
+
+footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #c35174;
+}

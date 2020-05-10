@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.reason {
+    border: 2px solid red;
+    background-color: #fbc43e;
+    background-image: url(../img/border.png);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    padding-bottom: 213px;
+}
+
+.container {
+    border: 2px solid blue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.leftyellow {
+    border: 2px solid purple;
+    background-image: url(../img/dot2.png);
+    background-position: right;
+    background-repeat: initial;
+}
+
+.leftcontainer {
+    border: 2px solid green;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

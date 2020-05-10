@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: Inconsolata;
+}
+
+.parent {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid red; */
+}
+
+.flex {
+    display: flex;
+}
+
+.img-fluid {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.line {
+    background-color: #444444;
+    height: 5px;
+}
+
+header {
+    background-color: white;
+    padding: 1rem;
+}
+
+.flex-turn {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+nav {
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.search {
+    margin-left: auto;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.quote {
+    background-color: #ebebe9;
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.photo {
+    min-height: 300px;
+    background-image: url(http://placekitten.com/g/800/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.caption {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.column {
+    flex-basis: 33.333333%;
+    display: flex;
+    background-color: white;
+}
+
+.left {
+    padding: 20px;
+}
+
+.right {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.column2 {
+    flex: 1 1 calc(100 / 3);
+    justify-content: space-around;
+    flex-grow: 1;
+    text-align: center;
+    background-color: #ebebe9;
+    padding: 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.four-columns {
+    background-color: white;
+}
+
+.contact {
+    flex: 1 1 25%;
+    flex-grow: 1;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: #444444;
+    height: 50px;
+    color: white;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}

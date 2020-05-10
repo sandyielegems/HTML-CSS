@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+#img1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+#img2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#img3 {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#img4 {
+    position: absolute;
+    left: 200px;
+    top: 0;
+}

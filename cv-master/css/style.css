@@ -1,0 +1,67 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: gray;
+        font-family: Asap;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .img-fluid {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .page {
+        width: 80%;
+        border: 2px solid red;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .navtext {
+        width: 100%;
+        height: 50px;
+        border: 2px dashed yellow;
+        /* flex-grow: 1; */
+        text-align: right;
+    }
+    
+    .naam {
+        border: 2px dashed black;
+        flex-grow: 1;
+    }
+    
+    .fotolinks {
+        display: block;
+        width: 30%;
+        padding: 1rem;
+        border: 2px dashed greenyellow;
+    }
+    
+    .naamrechts {
+        text-align: right;
+        width: 70%;
+        border: 2px dashed pink;
+        margin-right: 1rem;
+    }
+    
+    .links {
+        width: 30%;
+        border: 2px dashed green;
+    }
+    
+    .rechts {
+        width: 70%;
+        border: 2px dashed blue;
+    }

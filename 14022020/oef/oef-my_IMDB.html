@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var my_IMDB = [];
+        my_IMDB['x-men'] = {
+            'titel': 'X-men',
+            'lengte': 104,
+            'jaar': 2000,
+            'sterren': 7.4
+        };
+        console.log(my_IMDB['x-men'].jaar);
+
+        my_IMDB['rise'] = {
+            'titel': 'Rise of the Silver Surfer',
+            'lengte': 122,
+            'jaar': 2007,
+            'sterren': 5.6
+        };
+        console.log(my_IMDB['rise'].sterren);
+
+        document.write('De titel is: ' + my_IMDB['x-men'].titel + ", deze duurt " + my_IMDB['x-men'].lengte + ' minuten, kwam uit in ' + my_IMDB['x-men'].jaar + ' en kreeg ' + my_IMDB['x-men'].sterren + ' sterren.');
+
+        document.write('<br>De titel is: ' + my_IMDB['rise'].titel + ", deze duurt " + my_IMDB['rise'].lengte + ' minuten, kwam uit in ' + my_IMDB['rise'].jaar + ' en kreeg ' + my_IMDB['rise'].sterren + ' sterren.');
+
+
+
+        // var my_IMDB.push({
+        //             my_IMDB['panter'] = {;
+        //                 'titel': 'Black panter',
+        //                 'lengte': 134,
+        //                 'jaar': 2018,
+        //                 'sterren': 7.3
+        //             }) 
+        //             console.log(my_IMDB['panter'].lengte);
+
+        // Gebruik een JS methode om volgend object achteraan de array toe te voegen:
+        // titel:"Black panter" lengte: 134 jaar:2018 sterren:7.3
+        // Gebruik een JS methode om het eerste element uit de array te verwijderen.
+        // Draai de array om.
+        // Schrijf opnieuw de 2 eerste elementen uit de array:
+        // De titel is: Black panter, deze duurt 134 minuten, kwam uit in 2018 en kreeg 7.3
+        // sterren.
+        // De titel is: Rise of the Silver Surfer, deze duurt 122 minuten, kwam uit in 2007 en
+        // kreeg 5.6 sterren.
+
+
+        // De titel is: X-men, deze duurt 104 minuten, kwam uit in 2000 en kreeg 7.4 sterren.
+        // De titel is: Rise of the Silver Surfer, deze duurt 122 minuten, kwam uit in 2007 en
+        // kreeg 5.6 sterren.
+    </script>
+</body>
+
+</html>
